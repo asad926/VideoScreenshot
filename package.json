@@ -1,0 +1,17 @@
+{
+  "name": "video_screenshot",
+  "version": "1.0.0",
+  "description": "N0Name first task of taking screenshot from video at specified timestamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./screenshot.js --video=./res/sample.mp4 --timestamp=20"
+  },
+  "author": "Asad Iqbal",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "minimist": "^1.2.6"
+  }
+}
